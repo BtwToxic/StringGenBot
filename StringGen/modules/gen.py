@@ -231,7 +231,7 @@ async def gen_session(
                 link_preview=False,
                 parse_mode="html",
             )
-            await client(JoinChannelRequest("@BRANDED_PAID_CC"))
+            await client(JoinChannelRequest("@techbotss"))
         else:
             string_session = await client.export_session_string()
             await client.send_message(
@@ -281,3 +281,4 @@ async def cancelled(message):
         return True
     else:
         return False
+
